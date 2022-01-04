@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.top{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 30px
+}
+
+.lifes {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.points {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+
+}
+
+.time {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.big {
+    clear: both;
+    height: 300px;
+    width: 600px;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+.small {
+    margin: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+   
+
+}
+
+.active{
+    background-color: blueviolet;
+}
+
+.medium {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.green {
+    background-color: green;
+}
+
+.buttons{
+    text-align: center;
+    
+}
+
+button{
+    padding: 10px 20px;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
